@@ -23,7 +23,7 @@ const greeting = {
   username: "Aditya Hiremath",
   title: "Hi all, I'm Aditya Hiremath",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web  applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web  applications with JavaScript / Reactjs / Nodejs / Java and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=1hRBpecMklB3dtMfbyi5Lva80yZVUKVMM", // Set to empty to hide the button
@@ -130,10 +130,10 @@ const educationInfo = {
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "December 2021 - May 2025",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Learned Software Engineering and learned Development skills.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Made Project on Student Management System",
+        "Made Project on Weather forcasting using machine learning."
       ]
     },
     {
@@ -142,7 +142,7 @@ const educationInfo = {
       subHeader: "PCMB",
       duration: "July 2014 - April 2021",
       desc: "Did schooling from 6th to 12th standard",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      descBullets: ["Learnt how to learn"]
     }
   ]
 };
@@ -212,34 +212,34 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: " Projects",
+  subtitle: "Student Management System",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/student.png"),
+      projectName: "Student Management System",
+      projectDesc: "Managing large scale student records.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit GitHub",
+          url: "https://github.com/Aditya-Hiremath/StudentManagement"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/weather.png"),
+      projectName: "Weather Forecast",
+      projectDesc: "Forecasting the weather condition using Machine Learning Models.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Visit GitHub",
+          url: "https://github.com/Aditya-Hiremath/Anticipation-of-Rainfall"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
