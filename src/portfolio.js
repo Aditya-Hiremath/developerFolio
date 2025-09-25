@@ -222,7 +222,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit GitHub",
-          url: "https://github.com/Aditya-Hiremath/StudentManagement"
+          url: "https://github.com/Aditya-Hiremath/StudentManagementSystem"
         }
         //  you can add extra buttons here.
       ]
@@ -234,7 +234,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit GitHub",
-          url: "https://github.com/Aditya-Hiremath/Anticipation-of-Rainfall"
+          url: "https://github.com/Aditya-Hiremath/Anticipation-of-Rainfall-using-machine-learning"
         }
       ]
     }
