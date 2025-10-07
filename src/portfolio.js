@@ -54,9 +54,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Best performance in the Backend"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as AI Integration."
     )
   ],
 
@@ -127,7 +127,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Visvesvaraya Technological University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/vtu.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "December 2021 - May 2025",
       desc: "Learned Software Engineering and learned Development skills.",
@@ -138,7 +138,7 @@ const educationInfo = {
     },
     {
       schoolName: "Jawahar Navodaya Vidhyalaya , Raichur",
-      logo: require("./assets/images/stanfordLogo.png"),
+      logo: require("./assets/images/navodaya.png"),
       subHeader: "PCMB",
       duration: "July 2014 - April 2021",
       desc: "Did schooling from 6th to 12th standard",
